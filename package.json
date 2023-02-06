@@ -1,0 +1,32 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "projeto para gerenciamneto de contatos",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./index.js localhost 3001",
+    "build": "webpack",
+    "watch": "webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitoremanuelh/Projeto-CRM.git"
+  },
+  "author": "Vitor Emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitoremanuelh/Projeto-CRM/issues"
+  },
+  "homepage": "https://github.com/Vitoremanuelh/Projeto-CRM#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
